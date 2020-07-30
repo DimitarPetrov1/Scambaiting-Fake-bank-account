@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>First American Regional Trust</title>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header-account">
+            <nav>
+                <div class="logonav">
+                    <img src="img/logo.png" alt="Logo">
+                    <p>First American <br> Regional Trust</p>
+                </div>
+                <ul>
+                    <li><a href="#" class="logout-btn">Log out</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--  -->
+        <div class="account-body">
+
+            <ul class="account-nav">
+                <li id="accountName">
+                    <p></p>
+                </li>
+                <li id="userAccount">
+                    <a href="#">
+                        <p>Settings</p>
+                    </a>
+                </li>
+                <li id="accountMessages">
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="mail-icon">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <p class="badge-notification">2</p>
+                </li>
+            </ul>
+
+            <div class="account-left">
+
+                <!--  -->
+                <div class="_account">
+                    <h3 class="account-title">Master account</h3>
+                    <small>
+                        <p>ID 21398466</p>
+                    </small>
+
+                    <ul>
+                        <li>
+                            <h2 id="accountOneValue"></h2>
+                        </li>
+                        <li>
+                            <p>Last activity: $1212 <small>Reason: refund</small> </p>
+                        </li>
+                        <li>You can earn up to 3% interest, <a href="#">find out how.</a></li>
+                    </ul>
+
+                    <div class="_account-more">
+                        <a href="#" id="transferCC">Make a transfer</a>
+                        <a href="#">Make a payment</a>
+                        <a href="#">View Statement</a>
+                        <a href="#">Request cancellation</a>
+                    </div>
+
+                </div>
+
+                <div class="_account">
+                    <h3 class="account-title">Credit card></h3>
+                    <small>
+                        <p>**** **** **** 1928</p>
+                    </small>
+
+
+                    <ul>
+                        <li>
+                            <h2 id="accountTwoValue"></h2>
+                        </li>
+                        <li>
+                            <p>Last activity: $100 <small>Reason: Grocery shopping</small></p>
+                        </li>
+                        <li>You can earn up to 3% interest, <a href="#">find out how.</a></li>
+
+                    </ul>
+
+                    <div class="_account-more">
+                        <a href="#" id="transferMaster">Make a transfer</a>
+                        <a href="#">Make a payment</a>
+                        <a href="#">View Statement</a>
+                        <a href="#">Request cancellation</a>
+                    </div>
+
+                </div>
+                <!--  -->
+
+                <form class="modal modal-master">
+                    <p>Send to Master</p>
+                    <div class="modal-separator">
+                        <input id="transferAmount" type="number" placeholder="0">
+                        <button id="transferAmountBtn" type="submit">Submit</button>
+                    </div>
+                    <img src="img/svg/x.svg" alt="X">
+                </form>
+
+                <form class="modal modal-cc">
+                    <p>Send to CC</p>
+                    <div class="modal-separator">
+                        <input id="transferAmountTwo" type="number" placeholder="0">
+                        <button id="transferAmountBtnTwo" type="submit">Submit</button>
+                    </div>
+                    <img src="img/svg/x.svg" alt="X">
+                </form>
+
+
+                <!--  -->
+
+            </div>
+
+            <div class="account-right">
+                <div class="_cashback">
+                    <p>Everyday shopping savings</p>
+                    <p>Total Cashback earned:</p>
+                    <p>$121</p>
+                    <div class="cb-brands">
+                        <h4>Save on your bill with cashback on the listed retailers:</h4>
+                        <span>
+                            <img src="misc/mockup logos/logomark/color/atica.png" alt="retailer">
+                            <img src="misc/mockup logos/logomark/color/fossa.png" alt="retailer">
+                            <img src="misc/mockup logos/logotype/color/ztos.png" alt="retailer">
+                            <img src="misc/mockup logos/logotype/color/liva.png" alt="retailer">
+                            <img src="misc/mockup logos/logotype/color/lighting.png" alt="retailer">
+                            <img src="misc/mockup logos/logotype/color/utosia-2.png" alt="retailer">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+        <!--  -->
+
+        <footer>
+            <p>2020 Copyright First American Regional Trust</p>
+            <p><a href="#">Contact us</a></p>
+        </footer>
+
+    </div>
+    <!-- CUSTOM JS -->
+    <script src="js/logout.js"></script>
+    <script src="js/banking.js"></script>
+</body>
+
+</html>
