@@ -330,7 +330,7 @@ footer {
 }
 
 #accountName::before {
-    content: "Hello again, ";
+    content: "Hello ";
     position: absolute;
     top: 12px;
     font-size: 0.8rem;
@@ -554,4 +554,5 @@ footer {
 .modal-open {
     visibility: visible;
     pointer-events: all;
+    z-index: 20 !important;
 }
