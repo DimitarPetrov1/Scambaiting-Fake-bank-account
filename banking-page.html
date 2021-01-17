@@ -59,16 +59,16 @@
           </li>
         </ul>
 
-        <div id="rootAccounts" class="account-left">
+        <div class="account-left">
           <!-- -->
-          <div class="_account master_account">
-            <h3 class="account-title"></h3>
+          <div value="2000" class="_account master_account">
+            <h3 class="account-title">Main account</h3>
             <small>
-              <p></p>
+              <p>**** **** **** 3422</p>
             </small>
             <ul>
               <li>
-                <h2 class="account-value"></h2>
+                <h2 class="account-value">2000</h2>
               </li>
               <li>
                 <p>
@@ -81,21 +81,21 @@
               </li>
             </ul>
             <div class="_account-more">
-              <a href="#" id="0a" class="transferBtn">Make a transfer</a>
+              <a href="#" class="transferBtn">Make a transfer</a>
               <a href="#">Make a payment</a>
               <a href="#">View Statement</a>
               <a href="#">Request cancellation</a>
             </div>
           </div>
           <!-- -->
-          <div class="_account second_account">
-            <h3 class="account-title"></h3>
+          <div value="1000" class="_account second_account">
+            <h3 class="account-title">Credit card</h3>
             <small>
-              <p></p>
+              <p>**** **** **** 2213</p>
             </small>
             <ul>
               <li>
-                <h2 class="account-value"></h2>
+                <h2 class="account-value">1000</h2>
               </li>
               <li>
                 <p>
@@ -108,7 +108,7 @@
               </li>
             </ul>
             <div class="_account-more">
-              <a href="#" id="0b" class="transferBtn">Make a transfer</a>
+              <a href="#" class="transferBtn">Make a transfer</a>
               <a href="#">Make a payment</a>
               <a href="#">View Statement</a>
               <a href="#">Request cancellation</a>
@@ -117,14 +117,7 @@
           <!-- -->
         </div>
 
-        <form class="modal">
-          <p>Send to Master</p>
-          <div class="modal-separator">
-            <input id="transferAmount" type="number" />
-            <button id="submitBtn" type="submit">Submit</button>
-          </div>
-          <img src="img/svg/x.svg" alt="X" />
-        </form>
+        <div id="rootModal"></div>
 
         <div class="account-right">
           <div class="_cashback">
@@ -174,7 +167,6 @@
     </div>
     <!-- CUSTOM JS -->
     <script src="js/logout.js"></script>
-    <script src="js/banking.js"></script>
     <script src="js/transfers.js"></script>
   </body>
 </html>
