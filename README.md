@@ -1,2 +1,3 @@
 # Fake-Scambaiting-bank-account
-made just for fun
+Made just for fun, inspired by Kitboga.
+Still work in progress
